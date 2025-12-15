@@ -1,0 +1,38 @@
+.lesson {
+    border-radius: 1rem;
+    margin: 1rem 0;
+    padding: 2rem;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+}
+
+
+h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+    font-weight: 300;
+    line-height: 2rem;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    min-width: 200px;
+    text-align: right;
+}
+
+
+@media screen and (max-width: 576px) {
+    .time {
+        min-width: 100px;
+    }
+}
+
